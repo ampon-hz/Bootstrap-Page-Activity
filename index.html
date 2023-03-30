@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS only -->
+<link 
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+rel="stylesheet" 
+integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+crossorigin="anonymous"
+/>
+    <title>kaonashi.</title> 
+    <style> 
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');    
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,700&display=swap');
+    h1{
+        font-family:"Cinzel Decorative";
+        font-size: 900%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow: 4px 4px #014979c2;
+        vertical-align: center;
+        text-align: center;;
+    }
+    h2{
+        font-family:"Cinzel Decorative";
+        font-size: 400%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        vertical-align: center;
+        text-align: center;;
+        background-color: rgba(0, 0, 0, 0.562);
+    }
+    h3{
+        font-family:"Roboto";
+        font-size: 100%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        vertical-align: center;
+        text-align: center;;
+    }
+    h5{
+        font-family:"Roboto";
+        font-size: 100%;
+        text-align: center;
+        color: rgb(6, 126, 182);
+        vertical-align: center;
+        text-align: center;;
+    }
+    h8{
+        font-family:"Cinzel Decorative";
+        font-size: 400%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        vertical-align: center;
+        text-align: center;;
+        background-color: rgba(0, 0, 0, 0.562);
+    }
+    h7{
+        font-family:"Roboto";
+        font-size: 150%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px #014979e5;
+        vertical-align: center;
+        text-align: center;;
+    }
+    h4{
+        font-family:"Roboto";
+        text-align: center;
+        font-size: 100%;
+        color: rgb(255, 255, 255);
+        vertical-align: center;
+        text-align: center;
+    }
+    p{
+    text-align: justify;
+    }
+    .navbar-brand{
+        font-family:"Cinzel Decorative";
+        font-size: 280%;
+        color: rgb(2, 161, 201);
+    }
+    .navbar{
+        background: #0000005b;
+        font-family: "Roboto";
+    }
+    .btn{
+        background: #000000ad;
+        border: transparent;
+        color: white;
+        text-align: center;
+        align-items: center;
+        font-family: "Nanum Brush Script";
+        font-size: 150%;
+    }
+    .btn:hover{
+        background: rgb(7, 136, 211);
+        transition: .9s;
+        color: black;
+        border: transparent;
+    }
+    .btn.primary{
+        font-family: "Roboto";
+    }
+    body{
+        background-image: url(https://w0.peakpx.com/wallpaper/848/1011/HD-wallpaper-valley-of-lakes-deer-sky-fantasy-nature-reflections-clouds-body-of-water-fantasyworld-ghibli-illustration-studioghibli-anime.jpg);
+        background-repeat: vertical;
+        background-size: 100% auto;
+        width: 100%;
+        height: 100%;
+    }
+    .nav-link{
+        color: white;
+    }
+    /* .navbar-item>a:hover{
+        background-color: yellow;
+    } */
+    footer{
+        background: #0073b6a4;
+        color: white;
+        font-family: "Roboto";
+        max-width: fit-content;
+    }
+    .section-class{
+        text-align: left;
+    }
+    .box1 {
+        background-color: rgba(0,0,0,.5);
+        color: #fff;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">kaonashi.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active-bg-light" aria-current="page" href="index.html">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="artist.html">artist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="offers.html">offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="purpose.html">purpose</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+
+            <h1> カオナシ </h1>
+      </div>
+            <br>
+          </div>
+          <center>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <h3>"Where Imagination Begins"</h3>
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title fs-5" id="exampleModalLabel"> kaonashi. </h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      For business inquiries and collaborations, you may contact the masked artist below. 
+                      <br>
+                      <br>
+                      Thank you for your visit.
+                      <br>
+                      <form action="action_page.php">
+                        <div class="container">
+                          <h2></h2>
+                          <p></p>
+                        </div>
+                        <div class="container" style="background-color:rgb(255, 255, 255)">
+                          <input type="text" placeholder="Name | 名前" name="name" required>
+                          <br>
+                          <input type="text" placeholder="Email address | 電子" name="mail" required>
+                          <br>
+                          <input type="text" placeholder="Message | メッセージ" name="portfolio" required>
+                          <br>
+                          <br>
+                          <label>
+                            <input type="checkbox" checked="checked" name="subscribe"> Subscribe to Daily Newsletter
+                          </label>
+                        </div>
+                      
+                        <div class="container">
+                          <input type="submit" value="Subscribe">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </center>
+        <br>
+        <br>
+        <br>
+
+        <center>
+          <img src="https://www.icegif.com/wp-content/uploads/2022/04/icegif-42.gif" alt="" class="rounded-circle"  width="644" height="400">
+        </center>
+<br>
+<br>
+<br>
+<br>
+<!-- CARD -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="col-sm">
+                <div class="card text-bg-dark mb-3" style="max-width: 25rem;">
+                    <div class="card-body">
+                      <h3 class="card-title">THE MASKED ARTIST | 覆面アーティスト</h3>
+                      <img src="https://media.giphy.com/avatars/spiritedaway/mbHbJOlL5fsZ.jpg" alt="..." width="370px" height="300px">
+                      <br>
+                      <br>
+                      <p class="card-text">The artist is a digital creator and animator who brings imagination to life through her creative and visually stunning artworks. With a passion for all things digital, she creates compelling animations, illustrations, and designs that capture the essence of their subject matter in a unique and captivating way.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="col-sm">
+                <div class="card text-bg-dark mb-3" style="max-width: 25rem;">
+                    <div class="card-body">
+                      <h3 class="card-title">KAONASHI | カオナシ</h3>
+                      <img src="https://i.chzbgr.com/full/9601977088/h10ED78D0/house" alt="..." width="370px" height="300px">
+                      <br>
+                      <br>
+                      <p class="card-text">Kaonashi, meaning "faceless" hides the artist's identity yet reflects a strong sense of individuality through a creative concept. Using a range of cutting-edge tools and techniques, the kaonashi, as a body of work, masterfully combines art and technology to showcase digital creations that are both visually striking and thought-provoking.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="col-sm">
+                <div class="card text-bg-dark mb-3" style="max-width: 25rem;">
+                    <div class="card-body">
+                      <h3 class="card-title">EXPERIENCES | 経験</h3>
+                      <img src="https://ychef.files.bbci.co.uk/976x549/p081937v.jpg" alt="..." width="370px" height="300px">
+                      <br>
+                      <br>
+                      <p class="card-text">After tirelessly honing skills, being an artist becomes a force to be reckoned with. 
+
+                        Through all the late nights, caffeine-fueled sessions, and moments of sheer elation, an artist never forgets how one falls in love with art in the first place. It is not just a career - it's a way of life, a never-ending adventure that challenges and excites.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <br>
+            <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+         <!-- Contact Form -->
+     <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Contact form goes here -->
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label"><h3>First Name | 名前</h3></label>
+                <input type="text" class="form-control" id="name" name="name" />
+              </div>
+              <div class="mb-3">
+                <label for="name" class="form-label"><h3>Family Name | 姓</h3></label>
+                <input type="text" class="form-control" id="name" name="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label"><h3>Email address | 電子メールアドレス</h3></label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label"><h3>Message | メッセージ</h3></label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  name="message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <!-- Google Maps goes here -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.752458913765!2d-81.38677328498488!3d28.541168982446987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77b16c9c186a5%3A0x8e24a4a7ae23c2f!2sWalt%20Disney%20World!5e0!3m2!1sen!2sus!4v1617025762529!5m2!1sen!2sus"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+</body>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+ <!-- Footer -->
+
+
+  <footer class="text-center">
+    <br>
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              カオナシ
+            </h6>
+            <p>
+              Kaonashi is a series of thought-provoking pieces that a sense of mystery and anonymity. The collection encourages contemplation on the relationship between physical appearance and identity, and the impact of anonymity on our perceptions and interactions. Overall, the kaonashi is a powerful and evocative commentary on the complex nature of human identity.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              赴く
+            </h6>
+            <p>
+              <a href="index.html" class="text-reset">home</a>
+            </p>
+            <p>
+              <a href="artist.html" class="text-reset">artist</a>
+            </p>
+            <p>
+              <a href="offers.html" class="text-reset">offers
+              </a>
+            </p>
+            <p>
+              <a href="purpose.html" class="text-reset">purpose</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">コンタクト</h6>
+            <p>
+                <i class="fas fa-house">
+                </i> 
+            </p>
+            <p>
+              create@kaonashi.com
+            </p>
+            <p> +63947XXXXXXX</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+ <footer class="footer fixed-bottom bg-dark">
+    <div class="container d-flex justify-content-center">
+      <span class="text-muted">&#169;カオナシ </span>
+    </div>
+  </footer>
+
+  
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
